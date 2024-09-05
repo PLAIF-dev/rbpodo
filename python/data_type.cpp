@@ -286,6 +286,7 @@ void pybind11_data_type(py::module_& m) {
       .value("OR_EYE_RX", SystemVariable::OR_EYE_RX)
       .value("OR_EYE_RY", SystemVariable::OR_EYE_RY)
       .value("OR_EYE_RZ", SystemVariable::OR_EYE_RZ)
+      .value("DH_GRIPPER_POS", SystemVariable::DH_GRIPPER_POS)
       .value("JRT_ENCODER", SystemVariable::JRT_ENCODER)
       .value("JRT_JEGB", SystemVariable::JRT_JEGB)
       .value("JRT_JEGG", SystemVariable::JRT_JEGG)

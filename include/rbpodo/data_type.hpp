@@ -415,6 +415,7 @@ enum class SystemVariable {
   OR_EYE_RX,
   OR_EYE_RY,
   OR_EYE_RZ,
+  DH_GRIPPER_POS,
   JRT_ENCODER,
   JRT_JEGB,
   JRT_JEGG,
@@ -1424,6 +1425,8 @@ inline std::string to_string(SystemVariable var) {
       return "OR_EYE_RY";
     case SystemVariable::OR_EYE_RZ:
       return "OR_EYE_RZ";
+    case SystemVariable::DH_GRIPPER_POS:
+      return "DH_GRIPPER_POS";
     case SystemVariable::JRT_ENCODER:
       return "JRT_ENCODER";
     case SystemVariable::JRT_JEGB:
